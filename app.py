@@ -4,7 +4,10 @@ import git
 
 
 
-git_dir = "/Users/swotong/Project/Qtime"
+# git_dir = "/Users/swotong/Project/Qtime" #my local
+git_dir = "/home/ec2-user/project/qtime" #AWS Singapore
+
+
 
 # dynamic routing
 @route('/hello/<name>')
